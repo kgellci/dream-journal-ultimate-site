@@ -31,7 +31,7 @@ p {
 
 /* Links */
 a {
-    color: #3bc492;
+    /* color: #c43b3b; */
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
