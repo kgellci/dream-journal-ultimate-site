@@ -1,0 +1,16 @@
+# Dream Journal Ultimate
+
+The world's most advanced dream journal. Record, analyze, and interpret your dreams with the power of AI.
+
+## Core Features
+- **AI Powered Interpretation**: Advanced AI analyzes dreams to reveal hidden symbols, emotional themes, and narrative patterns.
+- **Social Dream Wall**: Connect with a global community. Share safely and anonymously.
+- **Private & Secure**: Lock your journal with PIN or Biometrics. Encrypted cloud sync keeps data safe.
+- **Cloud Sync**: Seamlessly sync across iOS, Android, and Web.
+
+## Links
+- [Dream Journal Ultimate | AI Powered Dream Journal](/)
+- [Privacy Policy - Dream Journal Ultimate](/privacy_policy.html)
+- [Terms of Service - Dream Journal Ultimate](/terms_of_service.html)
+- [Download on App Store](https://itunes.apple.com/us/app/dream-journal-ultimate-pin/id802558054?mt=8)
+- [Get it on Google Play](https://play.google.com/store/apps/details?id=dreamcapsule.com.dl.dreamjournalultimate)
