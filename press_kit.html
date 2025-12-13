@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Official Press Kit for Dream Journal Ultimate. Assets, fact sheet, and media contacts." />
+    <meta name="theme-color" content="#020617" />
+
+    <title>Press Kit | Dream Journal Ultimate</title>
+
+    <link rel="icon" type="image/png" href="/src/assets/favicon.png" />
+    <style>
+        /* Reusing core styles from main site via import or copy if index.css isn't globally linked. 
+           Assuming index.css is applied via build or we need to link it. 
+           Since this is a static html in public/ or root, let's look at how index.html does it.
+           index.html doesn't link a css file directly, it imports src/main.js which likely imports CSS.
+           For this new page to work with Vite dev server, we should include the script.
+        */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav-content">
+            <a href="index.html" class="logo">Dream Journal Ultimate</a>
+            <a href="index.html#download" class="btn btn-primary">Download App</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="min-height: 40vh; padding-top: 8rem;">
+            <div class="container">
+                <h1 class="hero-title">Press <span class="text-gradient">Kit</span></h1>
+                <p class="hero-subtitle">Resources, assets, and facts for journalists and content creators.</p>
+            </div>
+        </section>
+
+        <section style="padding: 4rem 0;">
+            <div class="container">
+                <div class="bento-grid" style="grid-template-columns: 2fr 1fr;">
+
+                    <!-- About Card -->
+                    <div class="glass-panel" style="grid-column: span 2; padding: 2rem;">
+                        <h2 class="bento-title" style="font-size: 1.5rem; margin-bottom: 1rem;">About Dream Journal
+                            Ultimate</h2>
+                        <p style="color: var(--text-muted); margin-bottom: 1rem;">
+                            Dream Journal Ultimate is the world's most advanced dream diary, aimed at helping users
+                            unlock the secrets of their subconscious.
+                            Combining traditional journaling with cutting-edge AI, the app analyzes dream patterns,
+                            interprets meanings, and even visualizes dreams using generative AI.
+                        </p>
+                        <p style="color: var(--text-muted);">
+                            With a vibrant community "Dream Wall," users can share their experiences safely and
+                            anonymously, turning the solitary act of dreaming into a shared connection.
+                        </p>
+                    </div>
+
+                    <!-- Fast Facts -->
+                    <div class="glass-panel" style="grid-column: span 1; padding: 2rem;">
+                        <h3 class="bento-title" style="margin-bottom: 1rem;">Fast Facts</h3>
+                        <ul style="list-style: none; padding: 0; color: var(--text-muted); line-height: 1.8;">
+                            <li><strong>Launch Date:</strong> 2014</li>
+                            <li><strong>Platforms:</strong> iOS, Android</li>
+                            <li><strong>Price:</strong> Free (Premium Subscription available)</li>
+                            <li><strong>Key Features:</strong> AI Interpretation, Image Generation, Dream Wall, Reality
+                                Checks.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="glass-panel" style="grid-column: span 1; padding: 2rem;">
+                        <h3 class="bento-title" style="margin-bottom: 1rem;">Media Contact</h3>
+                        <p style="color: var(--text-muted); margin-bottom: 1rem;">
+                            For press inquiries, interviews, or promo codes:
+                        </p>
+                        <a href="mailto:team@dreamjournal.co" class="btn btn-secondary"
+                            style="width: 100%; text-align: center;">team@dreamjournal.co</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Assets Gallery -->
+        <section style="padding: 4rem 0;">
+            <div class="container">
+                <h2 class="hero-title" style="font-size: 2rem; margin-bottom: 2rem;">Media Assets</h2>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                    <!-- Logo -->
+                    <div class="glass-panel" style="text-align: center; padding: 2rem;">
+                        <img src="/src/assets/favicon.png" alt="App Icon"
+                            style="width: 100px; height: 100px; margin-bottom: 1rem; border-radius: 20px;">
+                        <h4 style="margin-bottom: 0.5rem;">App Icon</h4>
+                        <a href="/src/assets/favicon.png" download="DreamJournalUltimate-Icon.png"
+                            class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Download PNG</a>
+                    </div>
+
+                    <!-- Screenshot 1 -->
+                    <div class="glass-panel" style="text-align: center; padding: 2rem;">
+                        <img src="/src/assets/screen1.jpg" alt="Home Screen"
+                            style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Home Screen</h4>
+                        <a href="/src/assets/screen1.jpg" download="DreamJournalUltimate-HomeScreen.jpg"
+                            class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Download JPG</a>
+                    </div>
+
+                    <!-- Screenshot 2 -->
+                    <div class="glass-panel" style="text-align: center; padding: 2rem;">
+                        <img src="/src/assets/screen2.jpg" alt="Dream Wall"
+                            style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Dream Wall</h4>
+                        <a href="/src/assets/screen2.jpg" download="DreamJournalUltimate-DreamWall.jpg"
+                            class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Download JPG</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer style="padding: 4rem 0; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+            <div class="container" style="text-align: center; color: var(--text-muted);">
+                <p>&copy; 2024 Dream Journal Ultimate</p>
+                <div style="margin-top: 1rem; display: flex; gap: 1rem; justify-content: center;">
+                    <a href="index.html" style="color: inherit;">Home</a>
+                    <a href="privacy_policy.html" style="color: inherit;">Privacy</a>
+                    <a href="press_kit.html" style="color: inherit;">Press Kit</a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
