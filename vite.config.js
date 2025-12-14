@@ -9,6 +9,7 @@ export default defineConfig({
         main: resolve('index.html'),
         privacy_policy: resolve('privacy_policy.html'),
         terms_of_service: resolve('terms_of_service.html'),
+        press_kit: resolve('press_kit.html'),
       },
     },
   },
