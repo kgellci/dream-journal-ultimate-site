@@ -10,6 +10,7 @@ The world's most advanced dream journal. Record, analyze, and interpret your dre
 
 ## Links
 - [Dream Journal Ultimate | AI Powered Dream Journal](/)
+- [Press Kit | Dream Journal Ultimate](/press_kit.html)
 - [Privacy Policy - Dream Journal Ultimate](/privacy_policy.html)
 - [Terms of Service - Dream Journal Ultimate](/terms_of_service.html)
 - [Download on App Store](https://itunes.apple.com/us/app/dream-journal-ultimate-pin/id802558054?mt=8)
