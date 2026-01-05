@@ -97,6 +97,7 @@ img {
     transition: all 0.3s ease;
     cursor: pointer;
     font-family: 'Space Grotesk', sans-serif;
+    white-space: nowrap;
 }
 
 .btn-primary {
